@@ -1,0 +1,17 @@
+@echo off 
+Title: Game 
+
+!startup
+cls 
+
+echo "What would you like to do "
+ech.
+echo 1.) Start the game
+echo 2.) Exit out
+else echo must choose one or two.
+echo
+
+if %input0% equ 1 goto begin
+else exit 
+
+  
